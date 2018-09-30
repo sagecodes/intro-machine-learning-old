@@ -67,7 +67,21 @@ Give a quick Intro!
 
 ##### Careers in Machine Learning
 
+- Data Scientist
+- Machine Learning Engineer
+- AI Engineer
+- Autonomous System Engineer
+
 ##### Who uses Machine Learning
+
+- Amazon
+- Netflix
+- Google
+- Uber
+- More and more people are using Machine Learning to improve products and experiences. 
+
+
+
 
 ## Lets make something with Machine learning!
 
