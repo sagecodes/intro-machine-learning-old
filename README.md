@@ -6,8 +6,9 @@
 - Download and install a text editor
     - [VS Code](https://code.visualstudio.com/)
     - [Atom](https://atom.io/)
-    - Or use an onlone editor like [codepen](https://codepen.io/) 
-- I also recommend using [chrome](https://www.google.com/chrome/) as a web browser.
+- install python [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- install SK learn
+
 
 
 WIFI: `Galvanize Guest Seattle` (no password)
