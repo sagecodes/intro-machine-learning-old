@@ -3,11 +3,7 @@
 ## Repo short URL [ml.sage.codes](https://github.com/sagecodes/intro-machine-learning)
 
 ## Do these things first!
-- Download and install a text editor
-    - [VS Code](https://code.visualstudio.com/)
-    - [Atom](https://atom.io/)
-- install python [https://www.python.org/downloads/](https://www.python.org/downloads/)
-- install SK learn
+- Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and sign in/up.
 
 
 
