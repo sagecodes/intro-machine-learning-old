@@ -6,19 +6,11 @@
 - Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and sign-in or Sign-up.
 
 
+### FAQ: 
+- WIFI: `Galvanize Guest Seattle` (no password)
+- Bathrooms: Behind you down the hall to the left
+- Kitch outside back classroom door with Coffee & Tea!
 
-WIFI: `Galvanize Guest Seattle` (no password)
-
-<!--###### Download the files for this class:
-1. Go to [https://github.com/GalvanizeOpenSource/l2c-html-css-2018](https://github.com/GalvanizeOpenSource/l2c-html-css-2018)
-2. Click on the button on the right-hand side that says "Download ZIP"
-3. Go to your downloads folder and double click on the .zip file to unzip it
-4. IMPORTANT! Leave all the individual files in the downloaded folder (if you would like to move it out of the downloads folder move the entire folder, not individual items)
-5. From Atom: File > open, select the folder and then click "Open"
-6. From Atom: If the file tree does not appear on the left hand View > Toggle Tree View -- this will show you the entire folder within Atom
-7. *Now if you already know some of what we're talking about,* you're all set to poke around in the files -- `index.html` and `CSS/style.css` are the two files we will using.
-8. The `examples` folder contains an example of a simple web page using HTML and CSS. If you get stuck you might want to refer to the example page.
--->
  
 ## What this workshop is
 
@@ -97,9 +89,31 @@ Some places machine learning is being used right now:
 - Uber
 - More and more people are using Machine Learning to improve products and experiences. 
 
-## Types of Machine Learning
+
+## The Break Down:
+
+Talking about things like AI and Selfdriving cars sounds like Machine Learning is crazy complicated! And although these problems cleary can be, you can absoluetly learn how to become a Machine Learning Engineer! 
+
+Lets take a look at a breakdown of a machine learning algorith together!
+
+#### The Model
+
+#### Probability
 
 
+### Types of Machine Learning
+
+### Supervised:
+
+##### Classification:
+Tries to categorize data.
+
+##### Regression:
+Tries to predict a quantity or a number
+
+
+### Unsupervised Learning
+- clustering 
 
 
 ## Lets make something with Machine learning!
