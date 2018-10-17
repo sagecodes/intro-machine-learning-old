@@ -3,7 +3,7 @@
 ## Repo short URL [ml.sage.codes](https://github.com/sagecodes/intro-machine-learning)
 
 ## Do these things first!
-- Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and sign in/up.
+- Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and sign-in or Sign-up.
 
 
 
@@ -36,7 +36,7 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 
 
 ## About me:
-Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist at Galvanize Seattle. Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about how to build AI and VR projects (I can't wait to do a workshop round these topics)! 
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist at Galvanize Seattle. Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! Currently learning more about Deep Learning and Computer Vision(Can't wait to do a workshop on it)!
 
 *caveat* I'm not an Galvanize instructor, they're much better at teaching than I am! :D
 
@@ -57,10 +57,30 @@ Give a quick Intro!
 - Why are you interested in Web Development?
 
 
-
 ## What is machine learning really?
 
-## Where is machine learning used?
+
+Trying to power of human reasoning into a computer
+
+A sub Feild of AI 
+(AI, ML, DL chart)
+
+
+
+### Where is machine learning used?
+
+Some places machine learning is being used right now:
+
+- Spam filters
+- Image Searching
+- Robotics
+- Computer Vision
+- Product reccemendations
+- Self driving Cars
+- Chat Bots / Personal Assistants
+- Healthcare (Cancer detection, much more)
+- so SO SO much more!!!!
+
 
 ##### Careers in Machine Learning
 
@@ -76,6 +96,8 @@ Give a quick Intro!
 - Google
 - Uber
 - More and more people are using Machine Learning to improve products and experiences. 
+
+## Types of Machine Learning
 
 
 
