@@ -215,16 +215,34 @@ We're using google colab and its an amazing place to start, but you may also wan
 
 Scikit learn
 
-### The model
+
+### Data Analysis
+
+Lets take a look at our data. This will give 
+
+
+
+### The classification model
+
+We already determined this data is good for a supervised classification model. 
 
 We're going to use **k-nearest neighbors** also reffered to as **knn**
 
-KNN takes the 'k' nearest categorized values to uncategorized data and assigns the majority value to the data its trying to categorize. You'll see why this model will make sense when we do some exploratory analysis!
+knn takes the 'k' nearest categorized values to uncategorized data and assigns the majority value to the data its trying to categorize. You should be able to see why this model makes sense from our data analysis!
+
+The example below has the value 4 for 'k'. So we look at the 4 nearest neighboring data points. 3 of of them are labeled versicolor. So we would assign a high probability that our new data point should be labeled versicolor!
+
+![knn 4](img/knn4.png)
 
 
 
+These lines are hand drawn and not 100% accurate but you could imagine the predictions falling into the categories like this
 
-### The code:
+![knn 4](img/predictsegments.png)
+
+
+
+### Build the Classifier:
 
 Test code tree.DecisionTreeClassifier example
 ```
