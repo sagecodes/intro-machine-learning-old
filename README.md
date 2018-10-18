@@ -315,6 +315,7 @@ y = iris.target
 
 knn = neighbors.KNeighborsClassifier(n_neighbors=3)
 
+#pass features and labels into model
 knn.fit(X, y)
 
 # What kind of iris has 3cm x 5cm sepal and 4cm x 2cm petal?
@@ -336,8 +337,27 @@ knn.predict_proba([test_flower])
 
 ### Train | Test Split
 
+```
+from sklearn.model_selection import train_test_split
 
-### Measure Accuracy
+x_train, x_test, y_train, y_test = train_test_split(x, y, 
+                                                    test_size=0.3,
+                                                    random_state=21, 
+                                                    stratify=y)
+
+
+knn = neighbors.KNeighborsClassifier(n_neighbors=3)
+
+knn.fit(x_train, y_train)
+
+y_pred = knn.predict(x_test)
+
+print("Test Predictions: \n {}".format(y_pred))
+
+knn.score(x_test, y_test)
+```
+
+
 
 
 ## Keep learning!
