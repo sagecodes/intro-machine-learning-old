@@ -18,7 +18,7 @@ A super friendly introduction to Machine Learning. No previous experience expect
 
 You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
 
-- This course is for absolute beginners
+- This course is for absolute beginners (if interest I can do a more advanced workshop / Series)
 - Ask Questions!
 - Answer Questions!
 - Its ok to get stuck, just ask for help!
@@ -53,13 +53,27 @@ Give a quick Intro!
 
 ## What is machine learning really?
 
-
-Trying to power of human reasoning into a computer
-
-A sub Feild of AI 
-(AI, ML, DL chart)
+"The Field of Study that gives computers the ability to learn without being explicitly programmed" - Aurthur Samual | pioneer in AI research.
 
 
+I like to think of it as: Computers using statistics to mimic human like decisions. 
+
+Hopefully we can even get better decisions than humans! Driving car example. 
+
+Machine Learning is a sub field of Artificial Intelligence. 
+
+![AI Circle](img/AIcircle.png)
+
+A Snapshot of Artificial Intelligence timeline:
+
+TABLE 
+
+
+Artificial intelegence has been an idea for along time! And actual research into creating this started in the TODO 
+
+In TODO machine learning came around
+
+In TODO deep learning(a popular subset of machine learning) 
 
 ### Where is machine learning used?
 
@@ -102,9 +116,20 @@ Talking about things like AI and Selfdriving cars sounds like Machine Learning i
 
 Lets take a look at a breakdown of a machine learning algorith together!
 
+Some ML Terminology
+
+| Machine Learning | Human | 
+|---|---|---|---|
+| Label  | What you're trying to predict  |
+|  Feature |  The data used to make a prediction | 
+| Feature Engineering  |  Reshaping Data to get more value out of it |
+| Feature Selection  |  Using the data that is most valuable |
+
 #### The Model
 
 #### Probability
+
+#### Train | Test Split
 
 
 ### Types of Machine Learning
@@ -124,20 +149,19 @@ Some types of Supervised Machine Learning"
 ##### Classification:
 Tries to categorize data.
 
+Some common models:
+
+- Decision trees
+- Support vector machine (SVM)
+- k-Nearest Neighbors
+
 ##### Regression:
 Tries to predict a quantity or a number
 
-##### Random forest
+- Random forest
+- Naive Bayes
 
-##### Decision trees
-
-##### Support vector machine (SVM)
-
-##### k-Nearest Neighbors
-
-##### Naive Bayes
-
-
+- Linear Regression
 
 ### Unsupervised Learning
 Data not labeled
@@ -153,6 +177,16 @@ Some types of Unsupervised Machine Learning"
 ##### PCA (Principle COmpoennet Analysis)
 
 
+## Machine Learning Tools
+
+- Scikit learn
+- Tensorflow
+- Pytorch
+- Keras
+- IBM Watson
+- A billion others if you look around!
+
+
 ## Lets make something with Machine learning!
 
 ## Keep learning!
@@ -162,4 +196,6 @@ Some types of Unsupervised Machine Learning"
 ### Events
 
 ## Galvanize Courses
-
+Stats class:
+11/27/2018
+12/4/2018
