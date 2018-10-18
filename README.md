@@ -30,7 +30,9 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 ## About me:
 Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist at Galvanize Seattle. Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! Currently learning more about Deep Learning and Computer Vision(Can't wait to do a workshop on it)!
 
-*caveat* I'm not an Galvanize instructor, they're much better at teaching than I am! :D
+*caveat* I'm not an Galvanize instructor, they're much better at teaching than I am! :D 
+
+This is also the first time running this inro to Machine Learning Learn to Code!
 
 If you have an event you would like to see or put on let me know! I'm always looking for ideas. Talk to me after the workshop or find me online at one of these:
 
@@ -74,12 +76,16 @@ Some places machine learning is being used right now:
 - so SO SO much more!!!!
 
 
-##### Careers in Machine Learning
+##### Some possible careers in Machine Learning
 
 - Data Scientist
 - Machine Learning Engineer
 - AI Engineer
 - Autonomous System Engineer
+- Robotics Engineer
+- Computer Vision Engineer
+- Natural Language Processing(NLP) Engineer
+- Human + Computer Interaction Designer
 
 ##### Who uses Machine Learning
 
@@ -105,15 +111,46 @@ Lets take a look at a breakdown of a machine learning algorith together!
 
 ### Supervised:
 
+Labeled examples. 
+This is x type of flower
+
+you have a bunch of samples and you know the correct answers
+
+[]Show / draw Graph
+
+Some types of Supervised Machine Learning"
+
+
 ##### Classification:
 Tries to categorize data.
 
 ##### Regression:
 Tries to predict a quantity or a number
 
+##### Random forest
+
+##### Decision trees
+
+##### Support vector machine (SVM)
+
+##### k-Nearest Neighbors
+
+##### Naive Bayes
+
+
 
 ### Unsupervised Learning
-- clustering 
+Data not labeled
+
+It still may detect all flowers are different and be able to cluster them and predict what group it may belong to but unable to actually predict what flower type it would be. 
+
+Some types of Unsupervised Machine Learning"
+
+##### clustering 
+
+##### feature extraction
+
+##### PCA (Principle COmpoennet Analysis)
 
 
 ## Lets make something with Machine learning!
