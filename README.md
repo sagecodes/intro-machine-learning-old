@@ -131,16 +131,14 @@ Some ML Terminology
 
 
 
-### Types of Machine Learning
+## Types of Machine Learning
 
 ### Supervised:
 
 Labeled examples. 
 This is x type of flower
 
-you have a bunch of samples and you know the correct answers
-
-[]Show / draw Graph
+Good for when you have a bunch of samples and you know the correct answers
 
 Some types of Supervised Machine Learning:
 
@@ -186,10 +184,6 @@ Google Alpha Go
 
 
 
-### Train | Test Split
-
-
-
 
 
 ## Lets make something with Machine learning!
@@ -220,6 +214,67 @@ Scikit learn
 
 Lets take a look at our data. This will give 
 
+First lets import our data from sklearn and take a quick peak
+
+```
+# Import libraries & data from sklearn
+from sklearn.datasets import load_iris
+
+#assign the iris dataset to a variable
+iris = load_iris()
+
+# print out the list of lables
+print("Types of iris: {}".format(iris['target_names']))
+```
+
+Lets take a look at the feature name. 
+
+```
+# Print out a list of feature names
+print("Feature names: \n{}".format(iris['feature_names']))
+```
+
+Lets look at the actual data points
+
+```
+# print out the first 5 sets of features from each flower
+print("Sample Data:\n{}".format(iris['data'][:5]))
+```
+
+We can find the keys and see how many rows and feature there are if we didn't already know that about the dataset:
+
+```
+# If we didn't know the key value pairs in the data we could find out like this:
+
+print(iris.keys())
+
+#150 rows (samples) 4 columns (features: Height & Width of Pedals & Sepals) 
+print(iris.data.shape)
+```
+
+Don't worry about everything going on in this code for now. Its going to plot out where our data points are with Sepal size as the x axis and Pedals size as the y axis.
+
+```
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+
+x_index = 0
+y_index = 3
+
+# this formatter will label the colorbar with the correct target names
+formatter = plt.FuncFormatter(lambda i, *args: iris.target_names[int(i)])
+
+plt.scatter(iris.data[:, x_index], iris.data[:, y_index],
+            c=iris.target, cmap=plt.cm.get_cmap('spring', 3))
+plt.colorbar(ticks=[0, 1, 2], format=formatter)
+plt.clim(-0.5, 2.5)
+plt.xlabel(iris.feature_names[x_index])
+plt.ylabel(iris.feature_names[y_index]);
+```
+
+
+If we went through all these steps we should have learned quite a bit about our data set!
 
 
 ### The classification model
@@ -244,37 +299,45 @@ These lines are hand drawn and not 100% accurate but you could imagine the predi
 
 ### Build the Classifier:
 
-Test code tree.DecisionTreeClassifier example
-```
-from sklearn.datasets import load_iris
-iris = load_iris()
-print(list(iris.target_names))
-```
+- Import the neighbors model
+- Data is typically denoted as X while labels are denoted with y
+- assign our classifier with 'k' value to a variable
+- train(fit) our model
+- output the preditcion
+- output the probabability behind the prediction
 
-```
-from sklearn.datasets import load_iris
-iris = load_iris()
-print(list(iris.target_names))
-from sklearn import tree
-classifier = tree.DecisionTreeClassifier()
-classifier = classifier.fit(iris.data, iris.target)
-print(classifier.predict([[5.1,3.5,1.4,1.5]]))
-```
-
-
-Cris
 
 ```
-from sklearn.datasets import load_iris
-iris_dataset = load_iris()
-print("Types of iris: {}".format(iris_dataset['target_names']))
+from sklearn import neighbors
+
+X = iris.data
+y = iris.target
+
+knn = neighbors.KNeighborsClassifier(n_neighbors=3)
+
+knn.fit(X, y)
+
+# What kind of iris has 3cm x 5cm sepal and 4cm x 2cm petal?
+# 0 = setosa' 1 = 'versicolor' 2 = 'virginica']
+# Data: sepal length, sepal width, petal length, petal width
+
+# Comment / Uncoomment different flowers below to see the prediction. 
+# test_flower = [3, 5, 4, 2]
+# test_flower = [5.1, 3.5, 1.4, .2]
+test_flower = [5.1, 4.5, 2.8, 2]
+
+result = knn.predict([test_flower])
+print(result)
+
+
+knn.predict_proba([test_flower])
 ```
 
 
+### Train | Test Split
 
 
-
-
+### Measure Accuracy
 
 
 ## Keep learning!
