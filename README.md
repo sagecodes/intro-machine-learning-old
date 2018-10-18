@@ -32,7 +32,7 @@ Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist a
 
 *caveat* I'm not an Galvanize instructor, they're much better at teaching than I am! :D 
 
-This is also the first time running this inro to Machine Learning Learn to Code!
+This is also the first time running this intro to Machine Learning workshop. I'm sure I'll have a lot to improve on so bare with me!
 
 If you have an event you would like to see or put on let me know! I'm always looking for ideas. Talk to me after the workshop or find me online at one of these:
 
@@ -56,7 +56,7 @@ Give a quick Intro!
 "The Field of Study that gives computers the ability to learn without being explicitly programmed" - Aurthur Samual | pioneer in AI research.
 
 
-I like to think of it as: Computers using statistics to mimic human like decisions. 
+I like to think of it as: Computers using statistics and data to make complicated decisions. 
 
 Hopefully we can even get better decisions than humans! Driving car example. 
 
@@ -121,7 +121,7 @@ Some ML Terminology
 | Machine Learning | Human | 
 |---|---|---|---|
 | Label  | What you're trying to predict  |
-|  Feature |  The data used to make a prediction | 
+|  Feature |  The data points used to make a prediction | 
 | Feature Engineering  |  Reshaping Data to get more value out of it |
 | Feature Selection  |  Using the data that is most valuable |
 
@@ -129,7 +129,6 @@ Some ML Terminology
 
 #### Probability
 
-#### Train | Test Split
 
 
 ### Types of Machine Learning
@@ -143,11 +142,10 @@ you have a bunch of samples and you know the correct answers
 
 []Show / draw Graph
 
-Some types of Supervised Machine Learning"
-
+Some types of Supervised Machine Learning:
 
 ##### Classification:
-Tries to categorize data.
+Tries to categorize data (example: Cat or Dog | Hotdog or Not Hotdog)
 
 Some common models:
 
@@ -156,11 +154,10 @@ Some common models:
 - k-Nearest Neighbors
 
 ##### Regression:
-Tries to predict a quantity or a number
+Tries to predict a quantity or a number (example: Price of a house)
 
 - Random forest
 - Naive Bayes
-
 - Linear Regression
 
 ### Unsupervised Learning
@@ -177,7 +174,99 @@ Some types of Unsupervised Machine Learning"
 ##### PCA (Principle COmpoennet Analysis)
 
 
-## Machine Learning Tools
+
+### Reinforcment learning:
+
+Rewards and punishments
+
+Google Alpha Go
+
+
+### Semisupervised Machine Learning
+
+
+
+### Train | Test Split
+
+
+
+
+
+## Lets make something with Machine learning!
+
+Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and sign-in or Sign-up through Google.
+
+
+### The data 
+
+We're going to make a simple classifier to identify flowers from the famous [Iris Flower Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set). This is basicially the a "Hello, World" dataset of the machine learning world!
+
+This data set has features(data points used to make a prediction) measurments of petal length, petal width, sepal length, sepal width for 150 records of 3 species(labels) ('setosa' 'versicolor' 'virginica' 50 examples each).
+
+Since this data has Features(data points we can use to make a prediction) and Labels(species) This Data is perfect for supervised learning! 
+
+Using this data we want to categorize(CLASSIFY) what group of species we think the flower will belong to. This makes it a **classification** probelem!
+
+
+
+### The Tools
+
+We're using google colab and its an amazing place to start, but you may also want to look at installing anaconda to get started developing on your local machine!
+
+Scikit learn
+
+### The model
+
+We're going to use **k-nearest neighbors** also reffered to as **knn**
+
+KNN takes the 'k' nearest categorized values to uncategorized data and assigns the majority value to the data its trying to categorize. You'll see why this model will make sense when we do some exploratory analysis!
+
+
+
+
+### The code:
+
+Test code tree.DecisionTreeClassifier example
+```
+from sklearn.datasets import load_iris
+iris = load_iris()
+print(list(iris.target_names))
+```
+
+```
+from sklearn.datasets import load_iris
+iris = load_iris()
+print(list(iris.target_names))
+from sklearn import tree
+classifier = tree.DecisionTreeClassifier()
+classifier = classifier.fit(iris.data, iris.target)
+print(classifier.predict([[5.1,3.5,1.4,1.5]]))
+```
+
+
+Cris
+
+```
+from sklearn.datasets import load_iris
+iris_dataset = load_iris()
+print("Types of iris: {}".format(iris_dataset['target_names']))
+```
+
+
+
+
+
+
+
+
+## Keep learning!
+
+If you take away ONE thing from today, it should be you can totally do Machine Learning!
+
+Here are some resources to keep going!
+
+##### Machine Learning Tools
+Here are some popular tools to help you get started! Search around for resources to get started. 
 
 - Scikit learn
 - Tensorflow
@@ -186,10 +275,6 @@ Some types of Unsupervised Machine Learning"
 - IBM Watson
 - A billion others if you look around!
 
-
-## Lets make something with Machine learning!
-
-## Keep learning!
 
 ### Meetups
 
