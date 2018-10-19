@@ -9,7 +9,7 @@
 ### FAQ: 
 - WIFI: `Galvanize Guest Seattle` (no password)
 - Bathrooms: Behind you down the hall to the left
-- Kitch outside back classroom door with Coffee & Tea!
+- Kitchen outside back classroom door with Coffee & Tea!
 
 ### Upcoming Relevant Classes & Events at Galvanize
 
@@ -62,20 +62,20 @@ Give a quick Intro!
 
 ## What is machine learning really?
 
-"The Field of Study that gives computers the ability to learn without being explicitly programmed" - Aurthur Samual | pioneer in AI research.
+"The Field of Study that gives computers the ability to learn without being explicitly programmed" - Arthur Samual Samuel | pioneer in AI research.
 
 
 I like to think of it as: Computers using statistics and data to make complicated decisions. 
 
 Hopefully we can even get better decisions than humans! 
 
-Machine Learning is a subfield of Artificial Intelligence and yeilding some amazing results.
+Machine Learning is a subfield of Artificial Intelligence and yielding some amazing results.
 
 ![AI Circle](img/AIcircle.png)
 
 A very brief Snapshot of Artificial Intelligence timeline:
 
-Adoption dates for AI technogly is something like this
+Adoption dates for AI technology is something like this
 
 | 1950s | 1980 |2010 | 
 |---|---|---|
@@ -83,7 +83,7 @@ Adoption dates for AI technogly is something like this
 
 
 
-Artificial intelegence has been an idea for along time! 
+Artificial intelligence has been an idea for along time! 
 
 It wasn't until more recently that we've had the data and the computing power to really start doing some awesome things!
 
@@ -95,7 +95,7 @@ Some places machine learning is being used right now:
 - Image Searching
 - Robotics
 - Computer Vision
-- Product reccemendations
+- Product recommendations
 - Self driving Cars
 - Chat Bots / Personal Assistants
 - Healthcare (Cancer detection, much more)
@@ -124,9 +124,9 @@ Some places machine learning is being used right now:
 
 ## The Break Down:
 
-Talking about things like AI and Selfdriving cars sounds like Machine Learning is crazy complicated! And although these problems cleary can be, you can absoluetly learn how to become a Machine Learning Engineer! 
+Talking about things like AI and Self-driving cars sounds like Machine Learning is crazy complicated! And although these problems clearly can be, you can absolutely learn how to become a Machine Learning Engineer! 
 
-Lets take a look at a breakdown of a machine learning algorith together!
+Lets take a look at a breakdown of a machine learning algorithm together!
 
 Some ML Terminology
 
@@ -183,7 +183,7 @@ Some types of Unsupervised Machine Learning"
 
 
 
-### Reinforcment learning:
+### Reinforcement learning:
 
 Rewards and punishments
 
@@ -192,7 +192,7 @@ Rewards and punishments
 
 
 ### Semisupervised Machine Learning
-usually used a large amount of unlabled data mixed with a small amount of labeled data.
+usually used a large amount of unlabeled data mixed with a small amount of labeled data.
 
 
 ## Lets make something with Machine learning!
@@ -202,13 +202,13 @@ Visit [Google Colab(colab.research.google.com)](colab.research.google.com) and s
 
 ### The data 
 
-We're going to make a simple classifier to identify flowers from the famous [Iris Flower Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set). This is basicially the a "Hello, World" dataset of the machine learning world!
+We're going to make a simple classifier to identify flowers from the famous [Iris Flower Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set). This is basically the a "Hello, World" dataset of the machine learning world!
 
-This data set has features(data points used to make a prediction) measurments of petal length, petal width, sepal length, sepal width for 150 records of 3 species(labels) ('setosa' 'versicolor' 'virginica' 50 examples each).
+This data set has features(data points used to make a prediction) measurements of petal length, petal width, sepal length, sepal width for 150 records of 3 species(labels) ('setosa' 'versicolor' 'virginica' 50 examples each).
 
 Since this data has Features(data points we can use to make a prediction) and Labels(species) This Data is perfect for supervised learning! 
 
-Using this data we want to categorize(CLASSIFY) what group of species we think the flower will belong to. This makes it a **classification** probelem!
+Using this data we want to categorize(CLASSIFY) what group of species we think the flower will belong to. This makes it a **classification** problem!
 
 
 
@@ -232,7 +232,7 @@ from sklearn.datasets import load_iris
 #assign the iris dataset to a variable
 iris = load_iris()
 
-# print out the list of lables
+# print out the list of labels
 print("Types of iris: {}".format(iris['target_names']))
 ```
 
@@ -261,7 +261,7 @@ print(iris.keys())
 print(iris.data.shape)
 ```
 
-Don't worry about everything going on in this code for now. Its going to plot out where our data points are with Sepal width as the x axis and Pedals length as the y axis. This is going to show only 2 demensions, but it will allow us to make some valuable insights. 
+Don't worry about everything going on in this code for now. Its going to plot out where our data points are with Sepal width as the x axis and Pedals length as the y axis. This is going to show only 2 dimensions, but it will allow us to make some valuable insights. 
 
 ```
 %matplotlib inline
@@ -290,7 +290,7 @@ If we went through all these steps we should have learned quite a bit about our 
 
 We already determined this data is good for a supervised classification model. 
 
-We're going to use **k-nearest neighbors** also reffered to as **knn**
+We're going to use **k-nearest neighbors** also referred to as **knn**
 
 knn takes the 'k' nearest categorized values to uncategorized data and assigns the majority value to the data its trying to categorize. You should be able to see why this model makes sense from our data analysis!
 
@@ -312,8 +312,8 @@ These lines are hand drawn and not 100% accurate but you could imagine the predi
 - Data is typically denoted as X while labels are denoted with y
 - assign our classifier with 'k' value to a variable
 - train(fit) our model
-- output the preditcion
-- output the probabability behind the prediction
+- output the prediction
+- output the probability behind the prediction
 
 
 ```
@@ -331,7 +331,7 @@ knn.fit(x, y)
 # 0 = setosa' 1 = 'versicolor' 2 = 'virginica']
 # Data: sepal length, sepal width, petal length, petal width
 
-# Comment / Uncoomment different flowers below to see the prediction. 
+# Comment / Uncomment different flowers below to see the prediction. 
 # test_flower = [3, 5, 4, 2]
 # test_flower = [5.1, 3.5, 1.4, .2]
 test_flower = [5.1, 4.5, 2.8, 2]
@@ -454,7 +454,7 @@ Apply [here](https://www.galvanize.com/seattle/data-science)
 
 - [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
 
-- [Structured Study Program at Hack Reactor](https://getcoding.hackreactor.com/ssp-overview/) - 11/5/2018 or 11/12/2018  ***If you're ineterested in learning more about web development THIS IS A GREAT OPTION!!!!! 
+- [Structured Study Program at Hack Reactor](https://getcoding.hackreactor.com/ssp-overview/) - 11/5/2018 or 11/12/2018  ***If you're interested in learning more about web development THIS IS A GREAT OPTION!!!!! 
 
 
 #### Immersive Bootcamps
