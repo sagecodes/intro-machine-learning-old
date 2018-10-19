@@ -58,22 +58,25 @@ Give a quick Intro!
 
 I like to think of it as: Computers using statistics and data to make complicated decisions. 
 
-Hopefully we can even get better decisions than humans! Driving car example. 
+Hopefully we can even get better decisions than humans! 
 
-Machine Learning is a sub field of Artificial Intelligence. 
+Machine Learning is a subfield of Artificial Intelligence and yeilding some amazing results.
 
 ![AI Circle](img/AIcircle.png)
 
-A Snapshot of Artificial Intelligence timeline:
+A very brief Snapshot of Artificial Intelligence timeline:
 
-TABLE 
+Adoption dates for AI technogly is something like this
+
+| 1950s | 1980 |2010 | 
+|---|---|---|
+|Artificial Intelligence  | Machine Learning  | Deep Learning|
 
 
-Artificial intelegence has been an idea for along time! And actual research into creating this started in the TODO 
 
-In TODO machine learning came around
+Artificial intelegence has been an idea for along time! 
 
-In TODO deep learning(a popular subset of machine learning) 
+It wasn't until more recently that we've had the data and the computing power to really start doing some awesome things!
 
 ### Where is machine learning used?
 
@@ -147,16 +150,14 @@ Tries to categorize data (example: Cat or Dog | Hotdog or Not Hotdog)
 
 Some common models:
 
-- Decision trees
-- Support vector machine (SVM)
-- k-Nearest Neighbors
+- [Decision trees](https://en.wikipedia.org/wiki/Decision_tree_learning)
+- [Support vector machine (SVM)](https://en.wikipedia.org/wiki/Support_vector_machine)
+- [k-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
 ##### Regression:
 Tries to predict a quantity or a number (example: Price of a house)
 
-- Random forest
-- Naive Bayes
-- Linear Regression
+- [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 
 ### Unsupervised Learning
 Data not labeled
@@ -165,11 +166,11 @@ It still may detect all flowers are different and be able to cluster them and pr
 
 Some types of Unsupervised Machine Learning"
 
-##### clustering 
+- [clustering](https://en.wikipedia.org/wiki/Cluster_analysis)
 
-##### feature extraction
+- [feature extraction](https://en.wikipedia.org/wiki/Feature_extraction)
 
-##### PCA (Principle COmpoennet Analysis)
+- [PCA (Principal Component Analysis)](https://en.wikipedia.org/wiki/Principal_component_analysis)
 
 
 
@@ -177,13 +178,12 @@ Some types of Unsupervised Machine Learning"
 
 Rewards and punishments
 
-Google Alpha Go
+- [Google Alpha Go](https://en.wikipedia.org/wiki/AlphaGo)
+- [Open AI DOTA](https://www.theverge.com/2018/8/28/17787610/openai-dota-2-bots-ai-lost-international-reinforcement-learning)
 
 
 ### Semisupervised Machine Learning
-
-
-
+usually used a large amount of unlabled data mixed with a small amount of labeled data.
 
 
 ## Lets make something with Machine learning!
@@ -413,11 +413,60 @@ Here are some popular tools to help you get started! Search around for resources
 - A billion others if you look around!
 
 
-### Meetups
 
-### Events
+## Welcome to Galvanize?
+###### We are a community!
+- Programming Bootcamp
+	- Data Science
+	- Web Development
+	- Data Analytics 
+- Co-working space
+- Event space
 
-## Galvanize Courses
-Stats class:
-11/27/2018
-12/4/2018
+## Relevant Upcoming Events at Galvanize
+ 
+We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
+
+More Events like this will be posted soon! [https://www.meetup.com/Learn-Code-Seattle/](https://www.meetup.com/Learn-Code-Seattle/)
+
+
+- [Practicing Coding Interviews](https://www.meetup.com/PSPPython/events/shfwgqyxnblb/) - Every Monday
+6:30 PM to 8:30 PM
+
+- [PuPPy Programming Night](https://www.meetup.com/PSPPython/events/zdzrxpyxnbpb/) - Every Thursday 6:30 PM to 8:30 PM
+
+A weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.com/meetups/).
+
+
+#### Part-Time Courses
+
+**Free 2 Statistics class** for active applicants to Data Science Immersive (No fees & no commitment): 11/27/2018 and 12/4/2018
+Apply [here](https://www.galvanize.com/seattle/data-science)
+
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
+
+- [Structured Study Program at Hack Reactor](https://getcoding.hackreactor.com/ssp-overview/) - 11/5/2018 or 11/12/2018  ***If you're ineterested in learning more about web development THIS IS A GREAT OPTION!!!!! 
+
+
+#### Immersive Bootcamps
+- [Data Science](https://www.galvanize.com/seattle/data-science) - 1/22/2019
+
+- [Software Engineer](https://www.galvanize.com/seattle/web-development) - 1/7/2019
+
+
+#### Co-working Space
+[work in our building!](https://www.galvanize.com/entrepreneur)
+
+
+## Questions:
+Please feel free to reach out to Sage Elliott with any questions!
+
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+#### About the Instructors
+
+[Sage Elliott](https://www.linkedin.com/in/sageelliott/) is a technology evangelist for Galvanize based in Seattle. Previously he worked as a Software and hardware engineer for startup around Seattle WA and Melbourne Fl.
+
+You can email him at [sage.elliott@galvanize.com](mailto:age.elliott@galvanize.com) or tweet [@sagecodes](https://twitter.com/sagecodes) for any further questions.
