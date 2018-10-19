@@ -119,7 +119,7 @@ Lets take a look at a breakdown of a machine learning algorith together!
 Some ML Terminology
 
 | Machine Learning | Human | 
-|---|---|---|---|
+|---|---|
 | Label  | What you're trying to predict  |
 |  Feature |  The data points used to make a prediction | 
 | Feature Engineering  |  Reshaping Data to get more value out of it |
