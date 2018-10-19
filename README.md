@@ -11,6 +11,15 @@
 - Bathrooms: Behind you down the hall to the left
 - Kitch outside back classroom door with Coffee & Tea!
 
+### Upcoming Relevant Classes & Events at Galvanize
+
+- **Free 2 day Statistics class** for active applicants to Data Science Immersive (No fees & no commitment): 11/27/2018 and 12/4/2018 start dates Apply [here](https://www.galvanize.com/seattle/data-science)
+
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
+
+- [Data Science Immersive](https://www.galvanize.com/seattle/data-science) - 1/22/2019 
+
+- More Events like this will be posted soon! [https://www.meetup.com/Learn-Code-Seattle/](https://www.meetup.com/Learn-Code-Seattle/)
  
 ## What this workshop is
 
