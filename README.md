@@ -310,13 +310,13 @@ These lines are hand drawn and not 100% accurate but you could imagine the predi
 ```
 from sklearn import neighbors
 
-X = iris.data
+x = iris.data
 y = iris.target
 
 knn = neighbors.KNeighborsClassifier(n_neighbors=3)
 
 #pass features and labels into model
-knn.fit(X, y)
+knn.fit(x, y)
 
 # What kind of iris has 3cm x 5cm sepal and 4cm x 2cm petal?
 # 0 = setosa' 1 = 'versicolor' 2 = 'virginica']
@@ -337,12 +337,13 @@ knn.predict_proba([test_flower])
 
 ### Train | Test Split
 
+
 ```
 from sklearn.model_selection import train_test_split
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, 
                                                     test_size=0.3,
-                                                    random_state=21, 
+                                                    random_state=16, 
                                                     stratify=y)
 
 
@@ -357,6 +358,41 @@ print("Test Predictions: \n {}".format(y_pred))
 knn.score(x_test, y_test)
 ```
 
+
+<!--
+TODO for future talk: plot Accuracy
+
+# Setup arrays to store train and test accuracies
+from sklearn import neighbors
+neighbors = np.arange(1, 9)
+train_accuracy = np.empty(len(neighbors))
+test_accuracy = np.empty(len(neighbors))
+
+# Loop over different values of k
+for i, k in enumerate(neighbors):
+    # Setup a k-NN Classifier with k neighbors:
+    knn = neighbors.KNeighborsClassifier(n_neighbors=k)
+
+    # Fit the classifier to the training data
+    knn.fit(X_train, y_train)
+    
+    #Compute accuracy on the training set
+    train_accuracy[i] = knn.score(x_train, y_train)
+
+    #Compute accuracy on the testing set
+    test_accuracy[i] = knn.score(x_test, y_test)
+
+# Generate plot
+plt.title('k-NN: Varying Number of Neighbors')
+plt.plot(neighbors, test_accuracy, label = 'Testing Accuracy')
+plt.plot(neighbors, train_accuracy, label = 'Training Accuracy')
+plt.legend()
+plt.xlabel('Number of Neighbors')
+plt.ylabel('Accuracy')
+plt.show()
+
+
+-->
 
 
 
