@@ -261,7 +261,7 @@ print(iris.keys())
 print(iris.data.shape)
 ```
 
-Don't worry about everything going on in this code for now. Its going to plot out where our data points are with Sepal size as the x axis and Pedals size as the y axis.
+Don't worry about everything going on in this code for now. Its going to plot out where our data points are with Sepal width as the x axis and Pedals length as the y axis. This is going to show only 2 demensions, but it will allow us to make some valuable insights. 
 
 ```
 %matplotlib inline
